@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Picklat:</strong>
+  <%= @booking.picklat %>
+</p>
+
+<p>
+  <strong>Picklng:</strong>
+  <%= @booking.picklng %>
+</p>
+
+<%= link_to 'Edit', edit_booking_path(@booking) %> |
+<%= link_to 'Back', bookings_path %>

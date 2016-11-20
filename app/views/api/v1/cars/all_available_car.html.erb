@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Available Cars</h1>
+<% if !@cars.empty? %>
+<table>
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Color</th>
+      <th>Availability</th>
+      <th>latitude</th>
+      <th>longitude</th>
+      <th>number</th>
+      <th>owner_name</th>
+      <th>model</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @cars.each do |car| %>
+      <tr>
+        <td><%= car.id %></td>
+        <td><%= car.color %></td>
+        <td><%= car.availability %></td>
+        <td><%= car.latitude %></td>
+        <td><%= car.longitude %></td>
+        <td><%= car.number %></td>
+        <td><%= car.owner_name %></td>
+        <td><%= car.model %></td>
+   <% end %>
+  </tbody>
+</table>
+<% else %>
+		<h1> no cab available </h1>
+<% end%>

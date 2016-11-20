@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  droplat: 9.99
+  droplng: 9.99
+  time_taken: 2016-11-18 13:11:07
+
+two:
+  droplat: 9.99
+  droplng: 9.99
+  time_taken: 2016-11-18 13:11:07

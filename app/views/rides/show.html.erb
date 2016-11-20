@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Droplat:</strong>
+  <%= @ride.droplat %>
+</p>
+
+<p>
+  <strong>Droplng:</strong>
+  <%= @ride.droplng %>
+</p>
+
+<p>
+  <strong>Time taken:</strong>
+  <%= @ride.time_taken %>
+</p>
+
+<%= link_to 'Edit', edit_ride_path(@ride) %> |
+<%= link_to 'Back', rides_path %>
